@@ -38,6 +38,7 @@ $(function() {
   $(".card").click(function(event){
     $(this).find(".face-down").hide();
     $(this).find(".face-up").show();
+    $("#turn").text(parseInt(newGame.turn/2)+1);
     var match = newGame.processTurn($(this).attr('card'), $(this).attr('slot'));
     console.log(newGame.turn);
     console.log(match);
