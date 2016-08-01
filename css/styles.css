@@ -6,6 +6,12 @@
   float:left;
 }
 
-/*.card {
-  margin: 1px;
-}*/
+.card {
+  float:left;
+  height: 566px;
+  width: 423px;
+}
+
+button {
+  margin-bottom: 50px;
+}
