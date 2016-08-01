@@ -1,0 +1,11 @@
+.face-up {
+  display: none;
+}
+
+#card-1, #card-3 {
+  float:left;
+}
+
+/*.card {
+  margin: 1px;
+}*/
